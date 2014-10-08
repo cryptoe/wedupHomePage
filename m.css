@@ -1,0 +1,31 @@
+.paginateUl{
+    list-style:none;
+    color:white;
+    padding: 0 !important;
+}
+
+.paginateUl  > li {
+    width:5px;
+    display:inline;
+    margin:1px;
+    
+}
+
+.separator{
+    color: #969696;
+}
+
+.paginateUl > li:first-child{
+    color: #969696;
+}
+.paginateUl > li:last-child{
+    color: #969696;
+}
+
+
+.paginateUl  > li:not([class^="separator"]):hover {
+    border: 1px solid #FFF;
+    border-radius: 3px;
+    
+   
+}
