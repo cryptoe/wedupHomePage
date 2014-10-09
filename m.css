@@ -1,8 +1,7 @@
 .paginateUl{
     list-style:none;
     color:white;
-    padding: 50px !important;
-     font-size: 70%;
+    font-size: 70%;
 }
 
 .paginateUl  > li {

@@ -117,8 +117,8 @@
         </div>
     -->
     <!-- content -->
-    <div style="width:800px; margin: 0 auto; height:100%;">
-    <div style="width:100%;height:85%">
+    <div style="width:800px; margin: 0 auto; height:800px;">
+    <div style="width:100%;height:75%">
         <div style="background-image: url(background.png);width:100%;border-top:2px  solid #ff0000;border-bottom: 2px solid #ff0000;background-size: 100%;background-repeat: no-repeat;background-position-y: -4px;height:100%;padding-top:3%">
             <div class="row padded" style="height:70%;">
                 <div class="col-6 col-sm-6 col-lg-4">
@@ -344,7 +344,7 @@
 
 
             <!--/row--> 
-            <div style="height:5%;text-align:center;">
+            <div style="height:2%;text-align:center;">
                 <ul class="paginateUl">
                     <li>Prev</li>
                     <li class="separator">|</li>
@@ -366,7 +366,7 @@
                 </ul>
             </div>
 
-            <div style="height:25%;">
+            <div style="height:28%;">
                 <span style="position: relative;top: 50%;padding-left: 5%;">
                 <img src="wedup.png"/></span>
                   <span style="float:right;border: 1px solid #F00;position: relative;top: 50%;margin-right: 5%;">
@@ -403,77 +403,11 @@
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript">
-    $('#123').click(function() {
-        //alert('23');
-        $('.carousel').carousel("cycle");
-    });
     $('.carousel').carousel({
-        interval: 1000,
-        pause: "false"
+        interval: 2000,
+       // pause: "false"
     });
 
-    $('.carousel').carousel('pause');
-
-    $("#carousel-example-generic").hover(function(e) {
-        if (e.type == "mouseenter") {
-            console.log("in");
-            $("#carousel-example-generic").carousel('cycle');
-        } else if (e.type == "mouseleave") {
-            console.log("out");
-            $("#carousel-example-generic").carousel("pause");
-           // $('.carousel').carousel('pause');
-        }
-    });
-    $("#carousel-example-generic1").hover(function(e) {
-        if (e.type == "mouseenter") {
-            console.log("in");
-            $("#carousel-example-generic1").carousel('cycle');
-        } else if (e.type == "mouseleave") {
-            console.log("out");
-            $("#carousel-example-generic1").carousel("pause");
-           // $('.carousel').carousel('pause');
-        }
-    });
-    $("#carousel-example-generic2").hover(function(e) {
-        if (e.type == "mouseenter") {
-            console.log("in");
-            $("#carousel-example-generic2").carousel('cycle');
-        } else if (e.type == "mouseleave") {
-            console.log("out");
-            $("#carousel-example-generic2").carousel("pause");
-           // $('.carousel').carousel('pause');
-        }
-    });
-    $("#carousel-example-generic3").hover(function(e) {
-        if (e.type == "mouseenter") {
-            console.log("in");
-            $("#carousel-example-generic3").carousel('cycle');
-        } else if (e.type == "mouseleave") {
-            console.log("out");
-            $("#carousel-example-generic3").carousel("pause");
-           // $('.carousel').carousel('pause');
-        }
-    });
-    $("#carousel-example-generic4").hover(function(e) {
-        if (e.type == "mouseenter") {
-            console.log("in");
-            $("#carousel-example-generic4").carousel('cycle');
-        } else if (e.type == "mouseleave") {
-            console.log("out");
-            $("#carousel-example-generic4").carousel("pause");
-           // $('.carousel').carousel('pause');
-        }
-    });
-    $("#carousel-example-generic5").hover(function(e) {
-        if (e.type == "mouseenter") {
-            console.log("in");
-            $("#carousel-example-generic5").carousel('cycle');
-        } else if (e.type == "mouseleave") {
-            console.log("out");
-            $("#carousel-example-generic5").carousel("pause");
-           // $('.carousel').carousel('pause');
-        }
-    });
     </script>
 
 
