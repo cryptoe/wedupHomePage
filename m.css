@@ -1,14 +1,17 @@
 .paginateUl{
     list-style:none;
     color:white;
-    padding: 0 !important;
+    padding: 50px !important;
+     font-size: 70%;
 }
 
 .paginateUl  > li {
     width:5px;
+    margin-top: 10px;
     display:inline;
     margin:1px;
-    
+   vertical-align: middle;
+    text-align: center;  
 }
 
 .separator{
